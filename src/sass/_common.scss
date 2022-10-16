@@ -1,0 +1,27 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import '~node_modules/material-icons/iconfont/material-icons.css';
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 10px 16px;
+  margin: 4px;
+  border-radius: 8px;
+  background: #4fb53f;
+  box-shadow: 0 10px 10px 0 #cccccc;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
